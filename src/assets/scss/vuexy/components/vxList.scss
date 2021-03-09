@@ -1,0 +1,16 @@
+/*=========================================================================================
+    File Name: vxList.scss
+    Description: Styles for vx-list component. Imported in VxList.vue file
+    ----------------------------------------------------------------------------------------
+    Item Name: Human Resources Application
+    Author: Hossam Ali
+    Author URL: https://www.linkedin.com/in/hossam-ali-7bb41810b/
+==========================================================================================*/
+
+.list {
+  .list__item {
+    display: flex;
+    padding: 0.4rem;
+    align-items: flex-start;
+  }
+}

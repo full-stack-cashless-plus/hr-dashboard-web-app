@@ -1,0 +1,15 @@
+/*=========================================================================================
+    File Name: _layout.scss
+    Description: partial- main layout styles container - imports layout styles
+    ----------------------------------------------------------------------------------------
+  Item Name: Human Resources Application
+  Author: Hossam Ali
+  Author URL: https://www.linkedin.com/in/hossam-ali-7bb41810b/
+==========================================================================================*/
+
+@import "layout/layoutCommon";
+@import "layout/layoutVertical";
+@import "layout/layoutHorizontal";
+
+@import "layout/theNavbar";
+@import "layout/footer";

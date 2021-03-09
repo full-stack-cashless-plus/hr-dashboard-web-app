@@ -1,0 +1,44 @@
+/*=========================================================================================
+  File Name: main.scss
+  Description: Main scss file. Imports other scss partials from 'vuexy' folder
+  ----------------------------------------------------------------------------------------
+  tem Name: Human Resources Application
+  Author: Hossam Ali
+  Author URL: https://www.linkedin.com/in/hossam-ali-7bb41810b/
+==========================================================================================*/
+
+@import "vuexy/variables";
+
+@import "vuexy/layout";
+@import "vuexy/typography";
+@import "vuexy/misc";
+@import "vuexy/extraComponents";
+@import "vuexy/themes";
+@import "vuexy/transitions";
+
+@import "vuexy/customClasses";
+
+// Vuesax fixes and enhancments
+@import "vuexy/fixesVuesax";
+
+// Tailwind Fixes
+@import "vuexy/tailwindFix";
+
+// rtl
+@import "vuexy/rtl";
+
+[dir] .v-select.large .vs__dropdown-toggle {
+  padding: .4rem 1rem .425rem 0;
+  font-size: 1.2rem !important;
+}
+.vs-input--input.large {
+  padding: .8rem !important;
+}
+
+.vs-button {
+  font-family: "Tajawal", sans-serif;
+  font-weight: 500;
+}
+.flatpickr-input {
+  width: 100%;
+}
